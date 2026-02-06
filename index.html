@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>adalah pokoknya anu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login" class="screen center">
+  <div class="login-box">
+    <h1>SHIBAL SEKYA</h1>
+    <p>Private Group Chat</p>
+
+    <input id="password" type="password" placeholder="Masukkan password" />
+    <button onclick="login()">Masuk Grup</button>
+  </div>
+</div>
+
+<!-- CHAT -->
+<div id="chat" class="screen chat hidden">
+  <div class="chat-header">💬 SHIBAL SEKYA</div>
+
+  <div id="messages"></div>
+
+  <div class="chat-input">
+    <input id="text" placeholder="Ketik pesan..." />
+    <button onclick="sendMessage()">➤</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
